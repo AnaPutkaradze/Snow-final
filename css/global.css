@@ -198,4 +198,10 @@ a {
     display: block;
   }
 }
+
+@media (max-width: 1001px) {
+  banner-section {
+    width: 100px;
+  }
+}
 /*# sourceMappingURL=global.css.map */
