@@ -99,3 +99,44 @@
     }
 }
 
+
+.section-second {
+    max-width: 1366px;
+    height: 424px;
+    .container {
+        .first-block {
+            // max-width: 7567px;
+            // height: 2386px;
+            // background-color: red;
+            margin-top: 84px;
+            margin-right: 308.1px;
+            margin-bottom: 100px;
+            margin-left: 301.9px;
+            margin-left: 300px;
+            .text-h2 {
+                font-size: 38px;
+                font-family: 'Playfair Display', serif;
+                font-weight: normal;
+                letter-spacing: normal;
+                color: black;
+                margin-left: 200px;
+            }
+
+            .text1 {
+                margin-top: 16px;
+                margin-bottom: 20px;
+                font-size: 20px;
+                margin-left: 70px;
+                font-family: 'Work Sans';
+                color: #5F5F5F;
+            }
+
+            .signature {
+                max-width: 223px;
+                height: 57px;
+                margin-left: 270px;
+            }
+        }
+    }
+    
+}
