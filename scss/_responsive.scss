@@ -13,3 +13,12 @@
         width: 100px;
     }
 }
+
+
+
+@media (max-width: 1001px) {
+    .icon-div, .info {
+        width: 100px;
+        display: block;
+    }
+}
