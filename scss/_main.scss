@@ -148,7 +148,7 @@
     background-repeat: no-repeat;
     // max-width: 1366px;
     width: 100%;
-    height: 258px;
+    height: 200px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -164,13 +164,14 @@
             text-align: center;
         .info {
             width: 350px;
+            color: blanchedalmond;
+            font-size: 40px;
         }
         .div-icon {
             margin: 10px auto;
             padding-top: 15px;
             // background-color: #5863F8;
             color: #fff;
-            font-size: 20000px;
             text-align: center;
             width: 60px;
             height: 60px;
@@ -186,3 +187,49 @@
         }
     }
 }
+ 
+.s2 {
+    // background-color: red;
+    max-width: 1366px;
+    width: 100%;
+    height: 1440px;
+    .div2 {
+        font-size: 38px;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+        margin-left: 200px;
+        color: black;
+        margin-top: 20px;
+        margin-left: 550px;
+    }
+
+    .div3 {
+        font-size: 15px;
+        font-family: 'Work Sans';
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+        color: #5F5F5F;
+        margin-top: 20px;
+        margin-right: 250px;
+        margin-bottom: 30px;
+        margin-left: 250px;
+    }
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        // justify-content: space-around;
+        // margin: 30px auto;
+        margin-right: 98px;
+        margin-left: 250px;
+        img {
+            max-width: 320px;
+            width: 100%;
+            height: 320px;
+            
+        }
+    }
+}
+

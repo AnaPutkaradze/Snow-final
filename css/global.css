@@ -232,7 +232,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 258px;
+  height: 200px;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -262,16 +262,20 @@ a {
 
 .banner-second .icon-div .info {
   width: 350px;
+  color: blanchedalmond;
+  font-size: 40px;
 }
 
-.banner-second .icon-div .icon {
+.banner-second .icon-div .div-icon {
   margin: 10px auto;
   padding-top: 15px;
   color: #fff;
-  font-size: 25px;
   text-align: center;
   width: 60px;
   height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .banner-second .icon-div .info h3 {
@@ -280,6 +284,53 @@ a {
   padding-bottom: 10px;
   font-family: 'Work Sans';
   color: white;
+}
+
+.s2 {
+  max-width: 1366px;
+  width: 100%;
+  height: 1440px;
+}
+
+.s2 .div2 {
+  font-size: 38px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  margin-left: 200px;
+  color: black;
+  margin-top: 20px;
+  margin-left: 550px;
+}
+
+.s2 .div3 {
+  font-size: 15px;
+  font-family: 'Work Sans';
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  color: #5F5F5F;
+  margin-top: 20px;
+  margin-right: 250px;
+  margin-bottom: 30px;
+  margin-left: 250px;
+}
+
+.s2 .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: 98px;
+  margin-left: 250px;
+}
+
+.s2 .images img {
+  max-width: 320px;
+  width: 100%;
+  height: 320px;
 }
 
 @media (max-width: 768px) {
@@ -294,6 +345,13 @@ a {
 @media (max-width: 1001px) {
   banner-section {
     width: 100px;
+  }
+}
+
+@media (max-width: 1001px) {
+  .icon-div, .info {
+    width: 100px;
+    display: block;
   }
 }
 /*# sourceMappingURL=global.css.map */
