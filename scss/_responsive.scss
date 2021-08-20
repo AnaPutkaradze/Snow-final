@@ -23,3 +23,26 @@
 
     }
 }
+
+@media (max-width: 700px ) {
+    footer {
+            flex-direction: column;
+    }
+    .foot {
+        justify-content: center;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .section-one .div1-h2 {
+        max-width: 300px;
+        font-size: 20px;
+    }
+    .s2 .div1-h2 {
+        max-width: 300px;
+        font-size: 20px;
+    }
+    
+    .footer-seond {
+        flex-direction: column;
+    }
+}
