@@ -605,6 +605,122 @@ footer {
   color: #D5D5D5;
 }
 
+.section-text {
+  margin: 20px 145px;
+  margin-top: 30px;
+}
+
+.section-text h3 {
+  margin-bottom: 15px;
+}
+
+.section-one .div-nature2 {
+  width: 350px;
+}
+
+.s2 .div-nature2 {
+  width: 470px;
+}
+
+.div1-h3 {
+  font-size: 30px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.div-nature2 {
+  font-size: 20px;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 30px auto;
+}
+
+.img {
+  width: 352px;
+}
+
+.image-blog1 {
+  width: 100%;
+  height: 570px;
+}
+
+.whyshould {
+  font-family: 'Playfair Display', serif;
+  font-size: 39px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.whyshouldyou2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 240px;
+}
+
+.whyshouldyou3 {
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-right: 300px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.whyshouldyou4 {
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-right: 300px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.whyshouldyou5 {
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-right: 300px;
+  font-family: Playfair Display,serif;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.whyshouldyou6 {
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-right: 300px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.whyshouldyou7 {
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-right: 300px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
 @media (max-width: 768px) {
   .navigation {
     display: none;
