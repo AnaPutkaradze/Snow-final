@@ -108,11 +108,11 @@ a {
 
 .navigation .nav-ul .li {
   font-family: 'Work Sans';
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
   font-size: 16px;
-  color: grey;
+  color: black;
   text-transform: uppercase;
   margin-left: 35px;
 }
@@ -366,6 +366,11 @@ a {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.div1-hh {
+  color: white;
+  margin-bottom: 100px;
 }
 
 .div1-h2 {
