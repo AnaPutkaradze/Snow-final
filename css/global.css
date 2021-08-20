@@ -289,7 +289,7 @@ a {
 .s2 {
   max-width: 1366px;
   width: 100%;
-  height: 1440px;
+  height: 1200px;
 }
 
 .s2 .div2 {
@@ -301,7 +301,7 @@ a {
   margin-left: 200px;
   color: black;
   margin-top: 20px;
-  margin-left: 550px;
+  margin-left: 540px;
 }
 
 .s2 .div3 {
@@ -331,6 +331,161 @@ a {
   max-width: 320px;
   width: 100%;
   height: 320px;
+}
+
+.section-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 100px;
+  background-color: white;
+}
+
+.section-text {
+  margin: 20px 145px;
+  margin-top: 30px;
+}
+
+.section-text h3 {
+  margin-bottom: 15px;
+}
+
+.section-one .div1-h2 {
+  width: 350px;
+}
+
+.s2 .div1-h2 {
+  width: 470px;
+}
+
+.div1-h3 {
+  font-size: 14px;
+  color: #3b3b3d;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.div1-h2 {
+  font-size: 42px;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-wrapper {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px auto;
+}
+
+.description {
+  width: 700px;
+  height: 295px;
+  margin-right: 15px;
+  border: 2px solid #E8E8E8;
+  background-color: #F8F8F8;
+  padding: 12px 20px;
+  resize: none;
+}
+
+.form-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.input {
+  width: 352px;
+  height: 62px;
+  margin-bottom: 15px;
+  border: 2px solid #E8E8E8;
+  background-color: #F8F8F8;
+  padding: 12px 20px;
+  resize: none;
+}
+
+.input-button {
+  width: 352px;
+  height: 62px;
+  color: #fff;
+  background-color: grey;
+  border: none;
+}
+
+.main-wrapper {
+  margin: auto;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.info {
+  width: 350px;
+}
+
+.icon2 {
+  margin: 10px auto;
+  padding-top: 15px;
+  background-color: cornflowerblue;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 45px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.info h3 {
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.info h4 {
+  font-size: 17px;
+  color: #707070;
+  font-family: 'Poppins', sans-serif;
+}
+
+.images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 30px auto;
+}
+
+.img {
+  width: 352px;
 }
 
 footer {
@@ -460,14 +615,80 @@ footer {
   }
 }
 
-@media (max-width: 1001px) {
+@media (max-width: 900px) {
+  .description {
+    max-width: 500px;
+  }
+  .section-text {
+    margin: 30px auto;
+    text-align: center;
+  }
+  .section-one .div1-h2 {
+    max-width: 400px;
+  }
+  .s2 .div1-h2 {
+    max-width: 600px;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .info {
+    width: 300px;
+  }
+  .img {
+    width: 250px;
+  }
+  .info {
+    width: 280px;
+  }
+}
+
+@media (max-width: 870px) {
+  .form-wrap {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .form-inputs {
+    margin-top: 20px;
+  }
+  .description {
+    width: 500px;
+  }
+  .input, .input-button {
+    margin-left: -15px;
+    width: 500px;
+  }
+  .main-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .info {
+    margin-bottom: 30px;
+  }
+  .images {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .img {
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 870px) and (max-width: 1001px) {
   .icon-div, .info {
     width: 100px;
     display: block;
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 870px) and (max-width: 700px) {
   footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
