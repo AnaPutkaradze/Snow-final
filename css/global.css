@@ -117,6 +117,10 @@ a {
   margin-left: 35px;
 }
 
+.navigation .nav-ul .li .nav-ul:hover {
+  color: red;
+}
+
 .burger {
   display: none;
 }
@@ -261,7 +265,6 @@ a {
 }
 
 .banner-second .icon-div .info {
-  width: 350px;
   color: blanchedalmond;
   font-size: 40px;
 }
@@ -289,7 +292,6 @@ a {
 .s2 {
   max-width: 1366px;
   width: 100%;
-  height: 1200px;
 }
 
 .s2 .div2 {
@@ -719,6 +721,36 @@ footer {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 100;
+}
+
+.error {
+  color: #c21616;
+  font-size: 20px;
+  text-align: center;
+}
+
+.users-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.users-li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.image {
+  height: 120px;
 }
 
 @media (max-width: 768px) {

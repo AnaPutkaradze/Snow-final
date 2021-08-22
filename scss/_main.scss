@@ -32,6 +32,11 @@
             color: black;
             text-transform: uppercase;
             margin-left: 35px;
+
+            .nav-ul:hover {
+                color: red;
+            }
+
         }
     }
     
@@ -163,7 +168,7 @@
             display: flex;
             text-align: center;
         .info {
-            width: 350px;
+            // width: 350px;
             color: blanchedalmond;
             font-size: 40px;
         }
@@ -192,7 +197,7 @@
     // background-color: red;
     max-width: 1366px;
     width: 100%;
-    height: 1200px;
+    // height: 1200px;
 
     .div2 {
         font-size: 38px;
@@ -568,4 +573,26 @@ footer {
     font-style: normal;
     font-weight: 100;
     // margin-bottom: 10x;
+}
+
+
+
+.error{
+    color: rgb(194, 22, 22);
+    font-size: 20px;
+    text-align: center;
+    
+}
+.users-ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.users-li{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    height: 120px;
 }
