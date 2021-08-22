@@ -117,10 +117,6 @@ a {
   margin-left: 35px;
 }
 
-.navigation .nav-ul .li .nav-ul:hover {
-  color: red;
-}
-
 .burger {
   display: none;
 }

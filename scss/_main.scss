@@ -29,13 +29,9 @@
             font-style: normal;
             font-display: swap;
             font-size: 16px;
-            color: black;
+            color: $color01;
             text-transform: uppercase;
             margin-left: 35px;
-
-            .nav-ul:hover {
-                color: red;
-            }
 
         }
     }
@@ -497,6 +493,7 @@ footer {
         justify-content: space-around;
     margin: 30px auto;
 }
+
 .img {
     width: 352px;
     
